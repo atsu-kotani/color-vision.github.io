@@ -69,7 +69,8 @@
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
+                          <!-- <i class="fas fa-file-pdf"></i> -->
+                          <i class="ai ai-arxiv"></i>
                         </span>
                         <span>Arxiv</span>
                         </a>
@@ -114,21 +115,24 @@
 </section>
 <!-- End paper abstract -->
 
-
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Supplementary Video</h2>
+        <div class="content has-text-justified">
         <video poster="" id="video" controls height="100%">
           <!-- Your video here -->
-          <source src="static/videos/supplement.mp4"
-          type="video/mp4">
+          <!-- <source src="static/videos/supplement.mp4"
+          type="video/mp4"> -->
         </video>
         <h2 class="subtitle has-text-centered">
         </h2>
       </div>
     </div>
   </div>
+</div>
 </section>
 
 
@@ -138,7 +142,14 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>
+      @article{kotani2024color,
+        author    = {Kotani, Atsunobu and Ng, Ren},
+        title     = {A Computational Framework for Modeling Emergence of Color Vision in Human Brain},
+        journal   = {Arxiv},
+        year      = {2024},
+      }
+    </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -158,11 +169,5 @@
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
